@@ -33,7 +33,7 @@ const DosaPage = () => {
             boxShadow: "0 2px 5px rgba(0,0,0,0.1)"
           }}>
             <h3>{rest.name}</h3>
-            <p><strong>{rest.pizza}</strong></p>
+            <p><strong>{rest.item}</strong></p>
             <p>{rest.price}</p>
           </div>
         ))}
